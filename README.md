@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/utsavk686/LeetcodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/0088-merge-sorted-array) |
 | [0136-single-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 ## Bit Manipulation
 |  |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 ## Linked List
@@ -66,4 +69,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
