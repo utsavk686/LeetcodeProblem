@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
+| [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 ## Two Pointers
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/utsavk686/LeetcodeProblem/tree/master/0035-search-insert-position) |
+| [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 ## Math
 |  |
 | ------- |
