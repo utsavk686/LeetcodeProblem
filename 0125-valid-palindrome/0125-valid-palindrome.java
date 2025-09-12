@@ -1,22 +1,25 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        int start = 0;
-        int end = s.length()-1;
-        
-        while(start<end){
-            while(start<end && !Character.isLetterOrDigit(s.charAt(start))){
-                start++;
-            }
+        // Two Pointer Approach
 
-            while(start<end && !Character.isLetterOrDigit(s.charAt(end))){
-                end--;
-            }
+        int left = 0;
+        int right = s.length()-1;
 
-            if(Character.toLowerCase(s.charAt(start))!=Character.toLowerCase(s.charAt(end))){
-                return false;
-            }
-            start++;
-            end--;
+        while(left<right){// left!=right because we are not comparing the middle element in palindrome e.g, Ata 
+
+        while(left<right && !Character.isLetterOrDigit(s.charAt(left))){
+            left++;
+        }
+        while(left<right && !Character.isLetterOrDigit(s.charAt(right))){
+            right--;
+        }
+
+        // comparing the digit are equal from both left and right side
+        if(Character.toLowerCase(s.charAt(left))!=Character.toLowerCase(s.charAt(right))){
+            return false;
+        }
+            left++;
+            right--;
         }
         return true;
     }
