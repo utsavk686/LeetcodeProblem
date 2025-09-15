@@ -6,8 +6,8 @@ class Solution {
        
 
         while(start<=end){
-            int mid = start + (end - start) / 2;
-             long sq = (long) mid*mid;
+            int mid = start + (end - start) / 2; // using this to find mid to stop overflow for large integer num
+             long sq = (long) mid*mid; // convering into long because it will be to long if we multiply twol large integer
            if(sq ==x){
             return mid;
            }
