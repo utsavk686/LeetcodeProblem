@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/utsavk686/LeetcodeProblem/tree/master/0125-valid-palindrome) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
+| [1894-merge-strings-alternately](https://github.com/utsavk686/LeetcodeProblem/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
 | ------- |
@@ -92,4 +93,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/utsavk686/LeetcodeProblem/tree/master/0125-valid-palindrome) |
+| [1894-merge-strings-alternately](https://github.com/utsavk686/LeetcodeProblem/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
