@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Two Pointers
 |  |
 | ------- |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -116,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/utsavk686/LeetcodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Sliding Window
+|  |
+| ------- |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
