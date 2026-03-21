@@ -1,28 +1,33 @@
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
-        int lSum = 0;
-        int rSum = 0;
-        int maxSum = 0;
         int n = cardPoints.length;
+        int totalSum = 0;
 
-        //add all the value of left(K Value)
-        for(int i= 0; i<k;i++){
-            lSum+=cardPoints[i];
+        //Step 1: find the total sum
+        for(int i=0;i<n;i++){
+            totalSum+=cardPoints[i];
         }
-        //assign the max sum as sum of all left value
-        maxSum = lSum;
+        //find the size of middle part
+        int windowSize = n-k;
 
-        int rIdx = n-1;
-
-        //decrese the sum from left and add right value
-        for(int i=k-1;i>=0;i--){
-            lSum -=cardPoints[i];
-            rSum +=cardPoints[rIdx]; //start adding the right Value after removing the value from left value 
-            rIdx--;
-            maxSum = Math.max(maxSum, lSum+rSum);
-
+        //if we take all cards
+        if(windowSize==0){
+            return totalSum;
         }
-        return maxSum;
+        //first window Size
+        int windowSum = 0;
+        int minSum = 0;
+        for(int i=0;i<windowSize;i++){
+            windowSum+=cardPoints[i];
+        }
+        minSum = windowSum;
+
+        //sliding window
+        for(int i=windowSize;i<n;i++){
+            windowSum=windowSum+cardPoints[i]-cardPoints[i-windowSize];
+            minSum = Math.min(windowSum, minSum);
+        }
+        return totalSum-minSum;
 
 
     }
