@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/utsavk686/LeetcodeProblem/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/utsavk686/LeetcodeProblem/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/utsavk686/LeetcodeProblem/tree/master/0069-sqrtx) |
+| [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 ## Math
 |  |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Divide and Conquer
@@ -121,5 +124,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
