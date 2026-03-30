@@ -1,14 +1,21 @@
 class Solution {
-    // note - this solution is not valid for this questions as it is asking to complete in O(1) space, but here we are using a hashmap so space complexity became O(n)
     public int[] twoSum(int[] numbers, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for(int i=0;i<numbers.length;i++){
-            int req = target-numbers[i];
+        // two pointer 
+        int i = 0;
+        int j = numbers.length-1;
 
-            if(map.containsKey(req)){
-                return new int[]{map.get(req)+1, i+1};
+        while(i<j){
+            int sum = numbers[i]+numbers[j];
+
+            if(sum==target){
+                return new int[]{i+1,j+1};
             }
-            map.put(numbers[i], i);
+            else if(sum<target){
+                i++;
+            }
+            else if(sum>target){
+                j--;
+            }
         }
         return new int[]{-1,-1};
     }
