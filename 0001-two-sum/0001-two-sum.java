@@ -1,5 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        // since we have to return the index, we will not be using the two pointer approach
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i=0;i<nums.length;i++){
             int required = target-nums[i];
@@ -10,6 +11,6 @@ class Solution {
             map.put(nums[i], i);
 
         }
-        return new int[]{-1, -1};
+        return new int[]{-1,-1};
     }
 }
