@@ -11,9 +11,9 @@ class Solution {
 
             while(left<right){
                 int sum = nums[left]+nums[right]+nums[i];
+
                 if(sum==0){
                     result.add(Arrays.asList(nums[left], nums[right], nums[i]));
-
                     while(left<right && nums[left]==nums[left+1]){
                         left++;
                     }
@@ -31,7 +31,6 @@ class Solution {
                     left++;
                 }
             }
-
         }
         return result;
     }
