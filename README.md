@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
+| [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/utsavk686/LeetcodeProblem/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/utsavk686/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/utsavk686/LeetcodeProblem/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/utsavk686/LeetcodeProblem/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/utsavk686/LeetcodeProblem/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 ## Math
 |  |
@@ -69,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0136-single-number) |
+| [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 ## Simulation
 |  |
 | ------- |
