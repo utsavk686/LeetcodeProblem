@@ -7,13 +7,14 @@ class Solution {
             // step 1: expand the window, add the current element in the hashMap
         for(int end = 0; end< s.length(); end++){
             char right = s.charAt(end);
+            //step 2: update the window data like updatating frequency map.
             if(map.containsKey(right)){
                 map.put(right, map.get(right)+1);
             }else{
                 map.put(right, 1);
             }
 
-            //step 2: correct the window
+            //step 3: correct the window
             while(map.size()<end-start+1){
                 char startChar = s.charAt(start);
                 map.put(startChar, map.get(startChar)-1);
