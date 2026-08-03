@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
+| [0904-fruit-into-baskets](https://github.com/utsavk686/LeetcodeProblem/tree/master/0904-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Two Pointers
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/utsavk686/LeetcodeProblem/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/utsavk686/LeetcodeProblem/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
+| [0904-fruit-into-baskets](https://github.com/utsavk686/LeetcodeProblem/tree/master/0904-fruit-into-baskets) |
 ## Linked List
 |  |
 | ------- |
@@ -144,5 +146,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/utsavk686/LeetcodeProblem/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/utsavk686/LeetcodeProblem/tree/master/0904-fruit-into-baskets) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
