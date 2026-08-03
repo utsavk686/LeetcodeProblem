@@ -1,39 +1,32 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        //start with sliding window
-        int start = 0;
-        int maxLength = Integer.MIN_VALUE;
+        int start=0;
+        int maxLength = 0;
         HashMap<Character, Integer> map = new HashMap<>();
-            // step 1: expand the window, add the current element in the hashMap
-        for(int end = 0; end< s.length(); end++){
-            char right = s.charAt(end);
-            //step 2: update the window data like updatating frequency map.
-            if(map.containsKey(right)){
-                map.put(right, map.get(right)+1);
+        //expand the window
+        for(int end =0; end<s.length();end++){
+            char rightChar = s.charAt(end);
+            if(map.containsKey(rightChar)){
+                map.put(rightChar,map.get(rightChar)+1);
             }else{
-                map.put(right, 1);
+                map.put(rightChar, 1);
             }
-
-            //step 3: correct the window
-            while(map.size()<end-start+1){
-                char startChar = s.charAt(start);
-                map.put(startChar, map.get(startChar)-1);
-
-                if(map.get(startChar)==0){
-                    map.remove(startChar);
-                }
-
-                start++;
-            }
-            //step 4: update the result
+            //if the window is valid, update the answer
             if(map.size()==end-start+1){
                 maxLength = Math.max(maxLength, end-start+1);
             }
+            //if window is invalid, correct the window(Shrink from left)
+            while(map.size()<end-start+1){
+                char leftChar = s.charAt(start);
+                map.put(leftChar, map.get(leftChar)-1);
+
+                //if after removing from left, the value bcome 0, remove that character from HashMap
+                if(map.get(leftChar)==0){
+                    map.remove(leftChar);
+                }
+                start++;
+            }
         }
-        if(maxLength == Integer.MIN_VALUE){
-            return 0; 
-        }else{
-            return maxLength;
-        }
+        return maxLength;
     }
 }
