@@ -1,40 +1,39 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-
         int start = 0;
-        int maxLength = 0;
+        int maxLength = Integer.MIN_VALUE;
         int maxFreq = 0;
-
         HashMap<Character, Integer> map = new HashMap<>();
+        //step 1: Expand the window
+        for(int end = 0; end<s.length(); end++){
+            char endChar = s.charAt(end);
 
-        // Step 1: Expand
-        for (int end = 0; end < s.length(); end++) {
+            //step2: update the current window
+            if(map.containsKey(endChar)){
+                map.put(endChar, map.get(endChar)+1);
+            }else{
+                map.put(endChar, 1);
+            }
 
-            char right = s.charAt(end);
+            maxFreq = Math.max(maxFreq, map.get(endChar));
 
-            // Step 2: Update window data
-            map.put(right, map.getOrDefault(right, 0) + 1);
+            /*step3: correct the window, in this case, 
+             replacementrequired = (windowSize-maxFreq)>k -> invalid
+             Shrink the window from left*/
+            while((end-start+1)-maxFreq>k){
+                char startChar = s.charAt(start);
+                map.put(startChar, map.get(startChar)-1);
 
-            maxFreq = Math.max(maxFreq, map.get(right));
-
-            // Step 3: Shrink while invalid
-            while ((end - start + 1) - maxFreq > k) {
-
-                char left = s.charAt(start);
-
-                map.put(left, map.get(left) - 1);
-
-                if (map.get(left) == 0) {
-                    map.remove(left);
+                //if frequency becomes zero, remove from map
+                if(map.get(startChar)==0){
+                    map.remove(startChar);
                 }
 
                 start++;
             }
-
-            // Step 4: Update answer
-            maxLength = Math.max(maxLength, end - start + 1);
+            //step 4: update the answer: now (windowSize-maxFreq)<=k
+            maxLength = Math.max(maxLength, end-start+1);
         }
-
         return maxLength;
-    }
+    }    
 }
