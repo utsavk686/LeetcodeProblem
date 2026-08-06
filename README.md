@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
 | [0904-fruit-into-baskets](https://github.com/utsavk686/LeetcodeProblem/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/utsavk686/LeetcodeProblem/tree/master/1004-max-consecutive-ones-iii) |
 | [1019-squares-of-a-sorted-array](https://github.com/utsavk686/LeetcodeProblem/tree/master/1019-squares-of-a-sorted-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Two Pointers
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/utsavk686/LeetcodeProblem/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/utsavk686/LeetcodeProblem/tree/master/0792-binary-search) |
+| [1004-max-consecutive-ones-iii](https://github.com/utsavk686/LeetcodeProblem/tree/master/1004-max-consecutive-ones-iii) |
 ## Math
 |  |
 | ------- |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/utsavk686/LeetcodeProblem/tree/master/0560-subarray-sum-equals-k) |
+| [1004-max-consecutive-ones-iii](https://github.com/utsavk686/LeetcodeProblem/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Divide and Conquer
 |  |
@@ -150,5 +153,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/utsavk686/LeetcodeProblem/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/utsavk686/LeetcodeProblem/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/utsavk686/LeetcodeProblem/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/utsavk686/LeetcodeProblem/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/utsavk686/LeetcodeProblem/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
