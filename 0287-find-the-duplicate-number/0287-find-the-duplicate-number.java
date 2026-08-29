@@ -1,19 +1,21 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        // brute force approach
-        Arrays.sort(nums);
-        
-        int leftpointer=0;
-        int nextpointer = leftpointer+1;
+        int slow = 0;
+        int fast = 0;
 
-        while(leftpointer<nextpointer && nextpointer<nums.length){
-            if(nums[leftpointer]!=nums[nextpointer]){
-                leftpointer++;
-                nextpointer++;
-            }else{
-                return nums[leftpointer];
+        while(true){
+            slow = nums[slow];
+            fast = nums[fast];
+            fast = nums[fast];
+
+            if(slow==fast){
+                slow= 0;
+                while(slow!=fast){
+                    slow = nums[slow];
+                    fast = nums[fast];
+                }
+                return slow;
             }
         }
-        return -1;
     }
 }
